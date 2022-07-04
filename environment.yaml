@@ -1,0 +1,12 @@
+name: BFM_to_FLAME
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - numpy==1.19.4
+    - h5py==3.1.0
+    - chumpy==0.70
+    - opencv-python==4.4.0.46
